@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+ragas
+datasets
+openai
+langchain
+pydantic
