@@ -5,6 +5,9 @@ from typing import List
 from ragas import evaluate
 from ragas.metrics import faithfulness, answer_relevancy
 from datasets import Dataset
+from langchain_openai import ChatOpenAI
+from langchain_openai import OpenAIEmbeddings
+
 
 # Set your OpenAI API key explicitly
 import os
